@@ -19,7 +19,9 @@ app.use(bodyParser.json());
 const mockEvents = {
     events: [
         { title: 'A cloud event', id: 1, description: 'Something really cool' },
-        { title: 'Another cloud event', id: 2, description: 'Something even cooler' }
+        { title: 'Another cloud event', id: 2, description: 'Something even cooler' },
+        { title: 'My cloud event', id: 2, description: 'Something i added' },
+
     ]
 };
 
